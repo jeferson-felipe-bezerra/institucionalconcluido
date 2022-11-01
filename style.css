@@ -1,0 +1,333 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    max-width: 2000px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    background-image: url("https://i.pinimg.com/736x/cd/e5/db/cde5db6915df8550b41c7b36c44d01b3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+
+}
+#cabeça{
+
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    background-image: url("https://img.freepik.com/fotos-gratis/rosto-de-mulher-com-maquiagem-linda_144627-25722.jpg?w=740&t=st=1666935806~exp=1666936406~hmac=81c01217e922c27a1789fce14fd336761de1641a2e009913d35f605b3d7391bb" );
+    background-repeat: no-repeat;
+    background-size: cover;
+   box-shadow: 0px 3px 0px 3px rgba(0, 0, 0, 0.142);
+   border-radius: 10px;
+   margin-bottom: 300px; 
+ 
+   
+}
+.frase{
+    height: 100px;
+    width: 300px;
+    text-align:center;
+    color: rgb(11, 5, 5);
+    font-size: 25px;
+    font-family: 'Playball', cursive;
+   
+}
+
+nav>ul>li{
+    display:inline-block;
+    padding: 20px;
+    font-size:30px;  
+    font-family: 'Playball', cursive;
+    
+ 
+
+   
+      
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    background-color: #f0a86076 ; 
+    border-radius: 70px;
+}
+
+
+nav>ul>li>a:hover{
+    padding: 2px;
+    color:#7446DB; 
+    border-radius: 10px;
+    
+}
+
+
+.foto{
+    background-image: url("https://cdn.create.vista.com/api/media/medium/270852506/stock-photo-top-view-cup-coffee-flowers?token=");
+    background-repeat: no-repeat;
+ 
+    height: 200px;
+    border-radius: 7px;
+
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    background-size:auto;
+    
+    
+   
+    
+}
+.fundo{
+  margin-top: 6px;
+   float: left;
+   border-radius: 4px;
+   margin-left: -60px;
+   margin-right: -70px;
+   border-left: none; 
+   
+}
+.central{
+    max-width: 2000px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+   
+}
+
+#empresa{
+    max-width: 2000px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 26px;
+    text-indent: 20px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 400px;
+   
+   
+}
+.empresa>h1{
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(88, 87, 87, 0.459); 
+ 
+}
+.mvv{
+    max-width: 2000px;
+    font-size: 20px;
+    background-image: url("https://img.freepik.com/fotos-premium/pincel-de-maquiagem-e-cosmeticos-decorativos-em-um-fundo-bege-com-espaco-de-copia_121946-3468.jpg?w=740");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 10px;  
+    
+}
+
+.mvv>h1{
+    text-align: center;
+    margin-left: 8px;
+    text-shadow: 1px 1px 1px rgba(88, 87, 87, 0.459); 
+    
+    
+}
+.missao>p{
+    text-indent: 20px;
+    
+}
+
+#promoçoes{
+    display: inline-block; 
+    text-align: center;
+    font-size: 30px;  
+    width: 99%;
+    margin-left: 20px;
+    margin-bottom: 200px; 
+    text-shadow: 3px 3px 3px rgba(88, 87, 87, 0.459); 
+}
+
+
+
+.pele{
+    transition: 0,5;  
+}
+.pele :hover{
+    transform: scale(1.1); 
+    
+}
+.pincel{
+    transition: 0,5;
+}
+.pincel :hover{
+    transition: 0,5;
+}
+.pincel :hover{
+    transform: scale(1.1);    
+}
+
+.olhos{
+    transition: 0,5;    
+}
+.olhos :hover{
+    transform: scale(1.1);
+}
+
+.boca{
+    transition: 0,5;
+}
+.boca :hover{
+    transform: scale(1.1);
+}
+#depoimentos{
+    background-color: rgba(110, 97, 97, 0.462);
+    padding: 50px;
+   margin: 20px;
+   margin-right: 23px;
+   text-align: center;
+   float: left;
+   border-radius: 10px;
+  
+}
+#depoimentos>h1{
+    font-size: 3em;
+    text-shadow: 3px 3px 3px rgba(88, 87, 87, 0.459); 
+   
+}
+#depoimentos>div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+   padding: 30px;
+   margin: 15px;
+   border-radius: 10px;
+   float: left; 
+   
+}
+.depoimento1{
+    background-image: url("fotos/img4.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+.rosto1{
+    background-image: url("fotos/pessoapq1.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+
+    }
+   
+
+
+        .depoimento2{
+            background-image: url("fotos/img4.png") ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        .rosto2{
+            background-image: url("fotos/pessoa2.png");
+            background-repeat: no-repeat;
+            height: 200px;
+            width: 200px;
+            margin-left: 40px;
+            margin-top: -10px;
+
+            }
+            .depoimento3{
+                background-image: url("fotos/img4.png") ;
+                background-repeat: no-repeat;
+                background-size: cover;
+                text-align: center;
+                font-size: 18px;
+                
+            }
+            
+            .rosto3{
+                background-image: url("fotos/pessoa3.png");
+                background-repeat: no-repeat;
+                height: 200px;
+                width: 200px;
+                margin-left: 40px;
+                margin-top: 40px;
+            }
+            .depoimento4{
+                background-image: url("fotos/img4.png") ;
+                background-repeat: no-repeat;
+                background-size: cover;
+                text-align: center;
+                font-size: 18px;
+            }
+            
+            .rosto4{
+                background-image: url("fotos/pessoa4.png");
+                background-repeat: no-repeat;
+                height: 200px;
+                width: 200px;
+                margin-left: 40px;
+                margin-top: -10px;
+            }
+        
+        
+            .contatos>div{
+                width: 10px;
+                height: 10px;
+                display: inline-block;
+                float: left;
+                padding: 8px;
+                margin: 3px;
+                
+               
+            }
+            .whats{
+                background-image: url("fotos/WhatsApp-icon.png");
+            }
+            .instagram{
+                background-image: url("fotos/Instagram-icon.png");
+            }
+            .email{
+                background-image: url("fotos/Mail-icon\ \(2\).png");
+            }
+            .telefone{
+                background-image: url("fotos/Phone-icon.png");
+            }
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+    
+    
+
+    
+
+
